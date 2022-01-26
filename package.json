@@ -1,0 +1,42 @@
+{
+  "name": "getstarted",
+  "private": true,
+  "version": "4.0.5",
+  "description": "A Strapi application.",
+  "scripts": {
+    "develop": "strapi develop",
+    "develop:ce": "STRAPI_DISABLE_EE=true strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "build:ce": "STRAPI_DISABLE_EE=true strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@josephcc00/design-system": "0.0.1-alpha.98",
+    "@josephcc00/icons": "0.0.1-alpha.98",
+    "@josephcc00/admin": "4.0.6",
+    "@josephcc00/plugin-documentation": "4.0.6",
+    "@josephcc00/plugin-graphql": "4.0.5",
+    "@josephcc00/plugin-i18n": "4.0.6",
+    "@josephcc00/plugin-sentry": "4.0.5",
+    "@josephcc00/plugin-users-permissions": "4.0.5",
+    "@josephcc00/provider-email-mailgun": "4.0.5",
+    "@josephcc00/provider-upload-aws-s3": "4.0.5",
+    "@josephcc00/provider-upload-cloudinary": "4.0.5",
+    "@josephcc00/ok2ship": "4.0.7",
+    "@josephcc00/utils": "4.0.5",
+    "lodash": "4.17.21",
+    "mysql": "2.18.1",
+    "passport-google-oauth2": "0.2.0",
+    "pg": "8.6.0",
+    "sqlite3": "5.0.2"
+  },
+  "strapi": {
+    "uuid": "getstarted"
+  },
+  "engines": {
+    "node": ">=12.22.0 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
