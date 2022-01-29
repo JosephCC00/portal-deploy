@@ -8,6 +8,8 @@
     "develop:ce": "STRAPI_DISABLE_EE=true strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "prebuild": "rimraf build",
+    "localProd": "rimraf build && rimraf node_modules && yarn && NODE_ENV=production strapi build && NODE_ENV=production strapi start",
     "build:ce": "STRAPI_DISABLE_EE=true strapi build",
     "strapi": "strapi"
   },
@@ -19,7 +21,7 @@
     "@josephcc00/plugin-graphql": "4.0.5",
     "@josephcc00/plugin-i18n": "4.0.6",
     "@josephcc00/plugin-sentry": "4.0.5",
-    "@josephcc00/plugin-users-permissions": "4.0.5",
+    "@josephcc00/plugin-users-permissions": "4.0.6",
     "@josephcc00/provider-email-mailgun": "4.0.5",
     "@josephcc00/provider-upload-aws-s3": "4.0.5",
     "@josephcc00/provider-upload-cloudinary": "4.0.5",
