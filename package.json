@@ -25,7 +25,7 @@
     "@josephcc00/provider-email-mailgun": "4.0.5",
     "@josephcc00/provider-upload-aws-s3": "4.0.5",
     "@josephcc00/provider-upload-cloudinary": "4.0.5",
-    "@josephcc00/ok2ship": "4.0.7",
+    "@josephcc00/ok2ship": "4.0.9",
     "@josephcc00/utils": "4.0.5",
     "lodash": "4.17.21",
     "mysql": "2.18.1",
