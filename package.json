@@ -16,7 +16,7 @@
   "dependencies": {
     "@josephcc00/design-system": "0.0.1-alpha.98",
     "@josephcc00/icons": "0.0.1-alpha.98",
-    "@josephcc00/admin": "4.0.6",
+    "@josephcc00/admin": "4.0.7",
     "@josephcc00/plugin-documentation": "4.0.6",
     "@josephcc00/plugin-graphql": "4.0.5",
     "@josephcc00/plugin-i18n": "4.0.6",
