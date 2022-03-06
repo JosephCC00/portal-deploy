@@ -9,9 +9,9 @@ const sqlite = {
 const postgres = {
   client: 'postgres',
   connection: {
-    database: 'strapi',
-    user: 'strapi',
-    password: 'strapi',
+    database: 'ok2ship',
+    user: 'wongmwc',
+    password: '123',
     port: 5432,
     host: 'localhost',
   },
@@ -20,9 +20,9 @@ const postgres = {
 const mysql = {
   client: 'mysql',
   connection: {
-    database: 'strapi',
-    user: 'strapi',
-    password: 'strapi',
+    database: 'ok2ship',
+    user: 'ok2ship',
+    password: 'ok2ship',
     port: 3306,
     host: 'localhost',
   },
@@ -35,5 +35,6 @@ const db = {
 };
 
 module.exports = {
-  connection: process.env.DB ? db[process.env.DB] || db.sqlite : db.sqlite,
+  //connection: process.env.DB ? db[process.env.DB] || db.sqlite : db.sqlite,
+  connection: db.postgres,
 };
